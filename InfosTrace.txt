@@ -1,0 +1,158 @@
+Trame 1 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [SYN]
+	 Seq : 0
+	 Ack : 0
+	 Window : 16060
+Trame 2 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [SYN,ACK]
+	 Seq : 0
+	 Ack : 1
+	 Window : 16060
+Trame 3 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [ACK]
+	 Seq : 1
+	 Ack : 40
+	 Window : 16060
+Trame 4 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [PSH,ACK]
+	 Seq : 40
+	 Ack : 41
+	 Window : 16060
+	HTTP/1.0 200 OK
+Trame 5 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [ACK]
+	 Seq : 41
+	 Ack : 80
+	 Window : 16060
+Trame 6 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [PSH,ACK]
+	 Seq : 80
+	 Ack : 204
+	 Window : 16060
+Trame 7 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [RST,ACK]
+	 Seq : 204
+	 Ack : 120
+	 Window : 16060
+Trame 8 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [PSH,ACK]
+	 Seq : 120
+	 Ack : 244
+	 Window : 16060
+Trame 9 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [ACK]
+	 Seq : 244
+	 Ack : 160
+	 Window : 16060
+www-npa.lip6.fr/~spathis/
+Trame 10 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [FIN]
+	 Seq : 160
+	 Ack : 284
+	 Window : 16060
+Trame 11 : 
+	 MAC_Dest : 00:01:02:a5:fb:3a
+	 MAC_Source : 00:01:02:a5:fc:8d
+	 Type : IPv4
+	 IP_Source : (10.33.182.182)
+	 IP_Dest : (132.227.60.13)
+	 Protocol : TCP
+	 Port_Source : 3765
+	 Port_Dest : 80
+	 [FIN,ACK]
+	 Seq : 284
+	 Ack : 360
+	 Window : 16060
+Trame 12 : 
+	 MAC_Dest : 00:01:02:a5:fc:8d
+	 MAC_Source : 00:01:02:a5:fb:3a
+	 Type : IPv4
+	 IP_Source : (132.227.60.13)
+	 IP_Dest : (10.33.182.182)
+	 Protocol : TCP
+	 Port_Source : 80
+	 Port_Dest : 3765
+	 [ACK]
+	 Seq : 360
+	 Ack : 324
+	 Window : 16060
